@@ -29,7 +29,41 @@
         <p>
             Découvrez ici mes plus beaux clichés et projets photographiques, capturant l’instant et la lumière.
         </p>
-        <!-- Ajoute ici le contenu spécifique à la page Photos -->
+        <br>
+        <h2>Mes dernières photos</h2>
+        <!-- 1 -->
+        <section class="feature-section feature-animate">
+            <div class="gallery-carousel left" data-gallery="1">
+                <img src="photos/court1.jpg" alt="Court-métrage 1" class="gallery-img active">
+                <img src="photos/court2.jpg" alt="Court-métrage 2" class="gallery-img">
+                <img src="photos/court3.jpg" alt="Court-métrage 3" class="gallery-img">
+                <div class="gallery-dots"></div>
+            </div>
+            <div class="feature-content">
+                <h3>Court-métrage 2024</h3>
+                <p>Suite à une idée spontanée, nous avons créé, Sacha et moi ce court métrage de 15 minutes, filmé sur 2 ou 3 après-midi. Ce projet a nécessité quelques heures de préparation du scénario, puis des dizaines d'heures de montage. Si la vidéo n'est pas disponible sur cette page WEB, je vous invite à la regarder sur Youtube directement</p>
+            </div>
+        </section>
+        <!-- 2 -->
+        <section class="feature-section feature-animate">
+            <div class="feature-content">
+                <h3>Piou Piou, un oiseau rigolo</h3>
+                <p>Voici une vidéo humoristique racontant l'histoire de Pioupiou et de ses petits. Si la vidéo n'est pas disponible sur cette page WEB, je vous invite à la regarder sur Youtube directement</p>
+            </div>
+            <div class="gallery-carousel right" data-gallery="2">
+                <img src="photos/piou1.jpg" alt="Piou Piou 1" class="gallery-img active">
+                <img src="photos/piou2.jpg" alt="Piou Piou 2" class="gallery-img">
+                <img src="photos/piou3.jpg" alt="Piou Piou 3" class="gallery-img">
+            </div>
+        </section>
+    </div>
+    <!-- Lightbox pour agrandir les images -->
+    <div id="lightbox" class="lightbox" style="display:none;">
+        <span class="lightbox-arrow lightbox-arrow-left">&#10094;</span>
+        <img class="lightbox-img" src="" alt="">
+        <span class="lightbox-arrow lightbox-arrow-right">&#10095;</span>
+        <span class="close">&times;</span>
+        <div class="lightbox-dots"></div>
     </div>
     <footer class="footer">
         &copy; <span id="year"></span> H.C. Studio

@@ -8,6 +8,15 @@
     <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: url('img/fond1.jpg');
+            background-repeat: repeat-y;
+            background-size: 100% auto;
+            background-position: top center;
+            background-attachment: scroll;
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar">
@@ -29,7 +38,26 @@
         <p>
             Passionné d’électronique, je conçois et réalise des projets innovants, du prototypage à la programmation d’objets connectés.
         </p>
-        <!-- Ajoute ici le contenu spécifique à la page Électronique -->
+        <section class="feature-section feature-animate">
+            <a href="photo.html">
+                <img src="img/a100.png" alt="Photos" class="feature-img left">
+            </a>
+            <div class="feature-content">
+                <h3>Déclencheur d'appareil photo à distance par WI-FI</h3>
+                <p>Mon projet le plus récent, un objet connecté et compact, qui m'apprend la conception d'un produit électronique de A à Z, même si je n'ai aucune intention de le commercialiser. En effet, mon projet est un cas beaucoup trop spécifique car il ne supporte que les appareil SONY alpha 100 à 500 à peu près. Cliquez sur le bouton pour tous les détails !</p>
+                <a href="photo.html" class="feature-btn">En savoir plus</a>
+            </div>
+        </section>
+        <section class="feature-section feature-animate">
+            <div class="feature-content">
+                <h3>Maquette fonctionnelle Businova par Safra</h3>
+                <p>Le plus gros projet électronique que je me suis lançé : Reconstruire une maquette qui roule et avec du RGB, du bus que je prenais tous les matin en allant au collège. Construit en Bois, PLA (plastique), et avec des pièces métalliques, tout designé au plus fidèle possible de l'original. Ce projet est actuellement en attente pour déprime d'un truc qui ne fonctionne plus, parce que la carte mère est à refaire, le code à réviser entièrement et chaque composant à retester... (la galère !)</p>
+                <a href="musique.html" class="feature-btn">En savoir plus</a>
+            </div>
+            <a href="musique.html">
+                <img src="img/section_electronique.JPG" alt="Musiques" class="feature-img right">
+            </a>
+        </section>
     </div>
     <footer class="footer">
         &copy; <span id="year"></span> H.C. Studio
