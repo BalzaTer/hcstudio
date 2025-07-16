@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Dino Chrome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jeu.css">
+</head>
+<body>
+    <h1>Mini Dino Chrome</h1>
+    <button onclick="window.location.href='main.html'">Retour menu</button>
+    <div id="game">
+        <div style="width:100%;max-width:600px;margin:auto;">
+            <canvas id="dino" width="600" height="200" style="width:100%;height:auto;touch-action:none;"></canvas>
+        </div>
+        <div id="info">Espace, ⬆️ ou bouton pour sauter</div>
+        <div id="score">Score : 0</div>
+        <button id="jumpBtn" style="font-size:2em;padding:15px 40px;margin-top:15px;">SAUTER</button>
+    </div>
+    <script src="jeu.js"></script>
+</body>
+</html>
