@@ -112,6 +112,11 @@ h2 {
     margin-right: 16px;
 }
 
+.video-embed iframe {
+    border: 0;
+    border-radius: 12px;
+}
+
 .music-video-embed {
     flex: 0 0 180px;
     margin: 0 16px;
