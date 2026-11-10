@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>KaJuillet! | H.C. Studio</title>
+        <link rel="icon" type="image/x-icon" href="HC-logo.ico">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="script.js"></script>
+        <script src="project-gallery.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="index.html">
+                <img src="HC-logo.svg" alt="Logo H.C. Studio" class="logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="photo.html">Photos</a></li>
+                <li><a href="musique.html">Musiques</a></li>
+                <li><a href="video.html">Vidéos</a></li>
+                <li><a href="electronique.html">Électronique</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main class="container">
+            <h1>KaJuillet!</h1>
+            <section class="project-intro">
+                <h2>Présentation du projet</h2>
+                <p>
+                    Pour ma fête d'anniversaire du 1er juillet 2026, j'ai imaginé une alternative physique à Kahoot!, car l'écran tactile de mon téléphone posait problème. KaJuillet! se joue avec des bornes équipées de quatre boutons lumineux. Les quiz peuvent être générés en quelques secondes sur le thème choisi et accueillir jusqu'à sept joueurs.
+                </p>
+                <div class="project-video-placeholder">Vidéo YouTube à venir.</div>
+            </section>
+
+            <section class="project-gallery-section" aria-labelledby="project-gallery-title">
+                <h2 id="project-gallery-title">Galerie photos</h2>
+                <div class="project-gallery" data-project="kajuillet" aria-label="Galerie photo KaJuillet!"></div>
+                <p class="project-gallery-empty">Les photos du projet seront ajoutées ici.</p>
+            </section>
+
+            <section class="project-blog" aria-labelledby="project-blog-title">
+                <h2 id="project-blog-title">Carnet de projet</h2>
+                <article class="feature-section blog-post">
+                    <time datetime="2026-07-01">1er juillet 2026</time>
+                    <h3>Un quiz physique pour mon anniversaire</h3>
+                    <p>
+                        Pour pouvoir jouer sans dépendre de l'écran tactile de mon téléphone, j'ai créé KaJuillet! : un quiz avec des bornes physiques et quatre boutons lumineux. On peut choisir un thème, générer un quiz rapidement et jouer jusqu'à sept. Son nom vient du mélange entre Kahoot! et le mois de juillet.
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <footer class="footer">
+            &copy; <span id="year"></span> H.C. Studio
+        </footer>
+    </body>
+</html>

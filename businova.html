@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Maquette Businova | H.C. Studio</title>
+        <link rel="icon" type="image/x-icon" href="HC-logo.ico">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="script.js"></script>
+        <script src="project-gallery.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="index.html">
+                <img src="HC-logo.svg" alt="Logo H.C. Studio" class="logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="photo.html">Photos</a></li>
+                <li><a href="musique.html">Musiques</a></li>
+                <li><a href="video.html">Vidéos</a></li>
+                <li><a href="electronique.html">Électronique</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main class="container">
+            <h1>Maquette fonctionnelle Businova</h1>
+            <section class="project-intro">
+                <h2>Présentation du projet</h2>
+                <p>
+                    Ce projet consiste à reconstruire une maquette roulante du bus Businova de Safra, inspirée de celui que je prenais pour aller au collège. La maquette associe bois, pièces imprimées en 3D et éléments métalliques, avec un éclairage RGB. Le projet est actuellement en pause : la carte mère doit être refaite, le code révisé et les composants retestés.
+                </p>
+                <div class="project-video">
+                    <iframe src="https://www.youtube.com/embed/kAF0peQcflU" title="Présentation du projet Businova" loading="lazy" allowfullscreen></iframe>
+                </div>
+            </section>
+
+            <section class="project-gallery-section" aria-labelledby="project-gallery-title">
+                <h2 id="project-gallery-title">Galerie photos</h2>
+                <div class="project-gallery" data-project="businova" aria-label="Galerie photo Businova"></div>
+                <p class="project-gallery-empty">Les photos du projet seront ajoutées ici.</p>
+            </section>
+
+            <section class="project-blog" aria-labelledby="project-blog-title">
+                <h2 id="project-blog-title">Carnet de projet</h2>
+                <article class="feature-section blog-post">
+                    <time datetime="2026-11-10">10 novembre 2026</time>
+                    <h3>État actuel du projet</h3>
+                    <p>
+                        La maquette et ses différents éléments demandent une reprise avant de pouvoir poursuivre les essais. La prochaine étape sera de refaire la carte mère, puis de réviser le code et de vérifier chaque composant. Je reprendrai le carnet lorsque le projet avancera.
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <footer class="footer">
+            &copy; <span id="year"></span> H.C. Studio
+        </footer>
+    </body>
+</html>
