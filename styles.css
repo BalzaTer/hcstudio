@@ -112,6 +112,28 @@ h2 {
     margin-right: 16px;
 }
 
+.music-video-embed {
+    flex: 0 0 180px;
+    margin: 0 16px;
+}
+
+.music-video-embed iframe {
+    display: block;
+    width: 180px;
+    height: 320px;
+    max-width: 100%;
+    border: 0;
+}
+
+.music-video-embed.landscape {
+    flex-basis: 320px;
+}
+
+.music-video-embed.landscape iframe {
+    width: 320px;
+    height: 180px;
+}
+
 .feature-content {
     flex: 1;
     display: flex;
@@ -196,6 +218,10 @@ h2 {
     .video-embed.right {
         margin-left: 0;
         margin-right: 0;
+    }
+    .music-video-embed {
+        flex-basis: auto;
+        margin: 0 0 18px 0;
     }
     .feature-content {
         align-items: center !important;
